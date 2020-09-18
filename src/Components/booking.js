@@ -1,26 +1,28 @@
 import React, {Component} from 'react';
+import image1 from '../img/nat-8.jpg'
+import image2 from '../img/nat-9.jpg'
 
 class Booking extends Component{
     render(){
         return(
-            <section class="section-tours" id="section-tours">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
+            <section className="section-tours" id="section-tours">
+                <div className="u-center-text u-margin-bottom-big">
+                    <h2 className="heading-secondary">
                         Most popular tours
                     </h2>
                 </div>
 
-                <div class="row">
-                    <div class="col-1-of-3">
-                       <div class="card">
-                           <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--1">
+                <div className="row">
+                    <div className="col-1-of-3">
+                       <div className="card">
+                           <div className="card__side card__side--front">
+                                <div className="card__picture card__picture--1">
                                     &nbsp;
                                 </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--1">The Sea Explorer</span>
+                                <h4 className="card__heading">
+                                    <span className="card__heading-span card__heading-span--1">The Sea Explorer</span>
                                 </h4>
-                                <div class="card__details">
+                                <div className="card__details">
                                     <ul>
                                         <li>3 day tours</li>
                                         <li>Up to 30 people</li>
@@ -30,29 +32,29 @@ class Booking extends Component{
                                     </ul>
                                 </div>
                            </div>
-                           <div class="card__side card__side--back card__side--back-1">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$297</p>
+                           <div className="card__side card__side--back card__side--back-1">
+                                <div className="card__cta">
+                                    <div className="card__price-box">
+                                        <p className="card__price-only">Only</p>
+                                        <p className="card__price-value">$297</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" className="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                        </div>
                     </div>
 
 
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--2">
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front">
+                                <div className="card__picture card__picture--2">
                                     &nbsp;
                                 </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--2">The Forest Hiker</span>
+                                <h4 className="card__heading">
+                                    <span className="card__heading-span card__heading-span--2">The Forest Hiker</span>
                                 </h4>
-                                <div class="card__details">
+                                <div className="card__details">
                                     <ul>
                                         <li>7 day tours</li>
                                         <li>Up to 40 people</li>
@@ -63,29 +65,29 @@ class Booking extends Component{
                                 </div>
 
                             </div>
-                            <div class="card__side card__side--back card__side--back-2">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$497</p>
+                            <div className="card__side card__side--back card__side--back-2">
+                                <div className="card__cta">
+                                    <div className="card__price-box">
+                                        <p className="card__price-only">Only</p>
+                                        <p className="card__price-value">$497</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" className="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--3">
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front">
+                                <div className="card__picture card__picture--3">
                                     &nbsp;
                                 </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">The Snow Adventurer</span>
+                                <h4 className="card__heading">
+                                    <span className="card__heading-span card__heading-span--3">The Snow Adventurer</span>
                                 </h4>
-                                <div class="card__details">
+                                <div className="card__details">
                                     <ul>
                                         <li>5 day tours</li>
                                         <li>Up to 15 people</li>
@@ -96,21 +98,47 @@ class Booking extends Component{
                                 </div>
 
                             </div>
-                            <div class="card__side card__side--back card__side--back-3">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$897</p>
+                            <div className="card__side card__side--back card__side--back-3">
+                                <div className="card__cta">
+                                    <div className="card__price-box">
+                                        <p className="card__price-only">Only</p>
+                                        <p className="card__price-value">$897</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" className="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Discover all tours</a>
+                <div className="u-center-text u-margin-top-huge">
+                    <a href="#" className="btn btn--green">Discover all tours</a>
+                </div>
+
+                <div className="popup" id="popup">
+                    <div className="popup__content">
+                        <div className="popup__left">
+                            <img src={image1}alt="Tour photo" className="popup__img"/>
+                            <img src={image2} alt="Tour photo" className="popup__img"/>
+                        </div>
+                        <div className="popup__right">
+                            <a href="#section-tours" className="popup__close">&times;</a>
+                            <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                            <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                            <p className="popup__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                                amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
+                                sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
+                                gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
+                                Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+                                vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
+                                vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
+                                euismod nisi porta.
+                            </p>
+                            <a href="#" className="btn btn--green">Book now</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         )

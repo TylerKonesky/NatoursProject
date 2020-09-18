@@ -8,40 +8,40 @@ class Tours extends Component{
                 <div className="row">
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="icon-basic-world feature-box-icon"></i>
+                            <i className="feature-box__icon icon-basic-world"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
-                            <p className="feature-box-text">
-                                Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours!
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
                             </p>
                         </div>
                     </div>
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="icon-basic-compass feature-box-icon"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">Meet Nature</h3>
-                            <p className="feature-box-text">
-                                Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours!
+                            <i className="feature-box__icon icon-basic-compass"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
                             </p>
                         </div>
                     </div>
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="icon-basic-map feature-box-icon"></i>
+                            <i className="feature-box__icon icon-basic-map"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Find your way</h3>
-                            <p className="feature-box-text">
-                                Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours!
+                             <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
                             </p>
                         </div>
                     </div>
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="icon-basic-heart feature-box-icon"></i>
+                            <i className="feature-box__icon icon-basic-heart"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
-                            <p className="feature-box-text">
-                                Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours! Here is a long list of random pieces of text about the tours!
+                            <p className="feature-box__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
                             </p>
                         </div>
                     </div>
